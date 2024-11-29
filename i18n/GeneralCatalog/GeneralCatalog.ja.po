@@ -2,15 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2020-01-24 10:54+0000\n"
-"PO-Revision-Date: 2023-08-24 16:35+0000\n"
+"PO-Revision-Date: 2024-11-29 04:34+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
-"Language-Team: Japanese <https://translate.otobo.org/projects/otobo10/generalcatalog/ja/>\n"
+"Language-Team: Japanese <http://weblate.otobo.org/projects/opm-packages/"
+"itsm-generalcatalog/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.8.4\n"
 
 #. Template: AAAGeneralCatalog
 msgid "Functionality"
@@ -130,107 +131,130 @@ msgstr ""
 
 #. SysConfig
 msgid "A precentage value of the minimal translation progress per language, to be usable for documentations."
-msgstr ""
+msgstr "ドキュメントに使用できる、言語ごとの最小翻訳進捗のパーセンテージ値。"
 
 #. SysConfig
 msgid "Access repos via http or https."
-msgstr ""
+msgstr "http または https 経由でリポジトリにアクセスします。"
 
 #. SysConfig
 msgid "Autoloading of Znuny4OTRSRepo extensions."
-msgstr ""
+msgstr "Znuny4OTRSRepo 拡張機能の自動ロード。"
 
 #. SysConfig
 msgid "Backend module registration for the config conflict check module."
-msgstr ""
+msgstr "構成競合チェックモジュールのバックエンドモジュール登録。"
 
 #. SysConfig
 msgid "Backend module registration for the file conflict check module."
-msgstr ""
+msgstr "ファイル競合チェックモジュールのバックエンドモジュール登録。"
 
 #. SysConfig
 msgid "Backend module registration for the function redefine check module."
-msgstr ""
+msgstr "関数再定義チェックモジュールのバックエンドモジュール登録。"
 
 #. SysConfig
 msgid "Backend module registration for the manual set module."
-msgstr ""
+msgstr "手動設定モジュールのバックエンドモジュール登録。"
 
 #. SysConfig
 msgid "Block hooks to be created for BS ad removal."
-msgstr ""
+msgstr "BS 広告削除用に作成されるブロック フック。"
 
 #. SysConfig
 msgid "Block hooks to be created for package manager output filter."
-msgstr ""
+msgstr "パッケージ マネージャーの出力フィルター用に作成されるブロック フック。"
 
 #. SysConfig
 msgid "Branch View commit limit"
-msgstr ""
+msgstr "ブランチビューのコミット制限"
 
 #. SysConfig
 msgid "CodePolicy"
-msgstr ""
+msgstr "コードポリシー"
 
 #. SysConfig
 msgid "Commit limit per page for Branch view screen"
-msgstr ""
+msgstr "ブランチビュー画面のページあたりのコミット制限"
 
 #. SysConfig
 msgid "Create analysis file"
-msgstr ""
+msgstr "分析ファイルを作成する"
 
 #. SysConfig
 msgid "Creates a analysis file from this ticket and sends to Znuny."
-msgstr ""
+msgstr "このチケットから分析ファイルを作成し、Znuny に送信します。"
 
 #. SysConfig
 msgid "Creates a analysis file from this ticket."
-msgstr ""
+msgstr "このチケットから分析ファイルを作成します。"
 
 #. SysConfig
 msgid "Define private addon repos."
-msgstr ""
+msgstr "プライベートアドオンリポジトリを定義します。"
 
 #. SysConfig
 msgid "Defines the filter that processes the HTML templates."
-msgstr ""
+msgstr "HTML テンプレートを処理するフィルターを定義します。"
 
 #. SysConfig
 msgid "Defines the test module for checking code policy."
-msgstr ""
+msgstr "コード ポリシーをチェックするためのテスト モジュールを定義します。"
 
 #. SysConfig
 msgid "Definition of GIT clone/push URL Prefix."
-msgstr ""
+msgstr "GIT クローン/プッシュ URL プレフィックスの定義。"
 
 #. SysConfig
 msgid "Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRelease => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
 msgstr ""
+"ダイナミックフィールドの定義: Group => "
+"ダイナミックフィールドにアクセスできるグループ。AlwaysVisible => "
+"フィールドは削除できます (0|1)。InformationAreaName => ウィジェットの名前。"
+"InformationAreaSize => ウィジェットのサイズと位置 (大|小)。Name => "
+"使用するダイナミックフィールドの名前。Priority => "
+"ダイナミックフィールドの順序。State => フィールドの状態 (0 = 無効、1 = "
+"アクティブ、2 = 必須)。FilterRelease => "
+"表示するためにリポジトリ名が一致する必要がある正規表現。FilterPackage => "
+"表示するためにパッケージ名が一致する必要がある正規表現。FilterBranch => "
+"表示するためにブランチ名が一致する必要がある正規表現。FilterRelease => "
+"表示するために拒否バージョン文字列が一致する必要がある正規表現。"
 
 #. SysConfig
 msgid "Definition of a Dynamic Field: Group => Group with access to the Dynamic Fields; AlwaysVisible => Field can be removed (0|1); InformationAreaName => Name of the Widgets; InformationAreaSize => Size and position of the widgets (Large|Small); Name => Name of the Dynamic Field which should be used; Priority => Order of the Dynamic Fields; State => State of the Fields (0 = disabled, 1 = active, 2 = mandatory), FilterRepository => Regex which the repository name has to match to be displayed, FilterPackage => Regex which the package name has to match to be displayed, FilterBranch => Regex which the branch name has to match to be displayed, FilterRelease => Regex which the repelase version string has to match to be displayed."
 msgstr ""
+"ダイナミックフィールドの定義: Group => "
+"ダイナミックフィールドにアクセスできるグループ。AlwaysVisible => "
+"フィールドは削除できます (0|1)。InformationAreaName => ウィジェットの名前。"
+"InformationAreaSize => ウィジェットのサイズと位置 (大|小)。Name => "
+"使用するダイナミックフィールドの名前。Priority => "
+"ダイナミックフィールドの順序。State => フィールドの状態 (0 = 無効、1 = "
+"アクティブ、2 = 必須)。FilterRepository => "
+"表示するためにリポジトリ名が一致する必要がある正規表現。FilterPackage => "
+"表示するためにパッケージ名が一致する必要がある正規表現。FilterBranch => "
+"表示するためにブランチ名が一致する必要がある正規表現。FilterRelease => "
+"表示するために拒否バージョン文字列が一致する必要がある正規表現。"
 
 #. SysConfig
 msgid "Definition of external MD5 sums (key => MD5, Value => Vendor, PackageName, Version, Date)."
-msgstr ""
+msgstr "外部 MD5 合計の定義 (キー => MD5、値 => "
+"ベンダー、パッケージ名、バージョン、日付)。"
 
 #. SysConfig
 msgid "Definition of mappings between public repository requests and internal OPMS repositories."
-msgstr ""
+msgstr "パブリック リポジトリ要求と内部 OPMS リポジトリ間のマッピングの定義。"
 
 #. SysConfig
 msgid "Definition of package states."
-msgstr ""
+msgstr "パッケージ・ステータスの定義。"
 
 #. SysConfig
 msgid "Definition of renamed OPMS packages."
-msgstr ""
+msgstr "名前が変更された OPMS パッケージの定義。"
 
 #. SysConfig
 msgid "Directory, which is used by Git to cache repositories."
-msgstr ""
+msgstr "Git がリポジトリをキャッシュするために使用するディレクトリ。"
 
 #. SysConfig
 msgid "Directory, which is used by Git to store temporary data."
@@ -246,7 +270,8 @@ msgstr ""
 
 #. SysConfig
 msgid "Do not log git ssh connection authorization results for these users. Useful for automated stuff."
-msgstr ""
+msgstr "これらのユーザーの git ssh "
+"接続認証結果をログに記録しません。自動化に役立ちます。"
 
 #. SysConfig
 msgid "Dynamic Fields Screens"
@@ -294,7 +319,8 @@ msgstr ""
 
 #. SysConfig
 msgid "Generate HTML comment hooks for the specified blocks so that filters can use them."
-msgstr ""
+msgstr "指定されたブロックの HTML コメント "
+"フックを生成し、フィルターが使用できるようにします。"
 
 #. SysConfig
 msgid "Generate documentations once per night."
@@ -318,7 +344,7 @@ msgstr ""
 
 #. SysConfig
 msgid "Group, whose members have repository admin permissions in OPMS."
-msgstr ""
+msgstr "メンバーが OPMS のリポジトリ管理者権限を持つグループ。"
 
 #. SysConfig
 msgid "Group, whose members will see CI test result information in OPMS screens."
@@ -507,4 +533,3 @@ msgstr ""
 #. SysConfig
 msgid "Defines the initial height in pixels for the rich text editor component for this screen."
 msgstr ""
-

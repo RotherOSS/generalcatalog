@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2025 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -823,7 +823,7 @@ sub _ShowScreen {
     my $GeneralCatalogClassStrg = $LayoutObject->BuildSelection(
         Data         => $ClassList,
         Name         => 'GeneralCatalogClass',
-        SelectedID   => $Param{GeneralCatalogClass} || '0',
+        SelectedID   => $Param{Config}{GeneralCatalogClass} || '0',
         Class        => 'Modernize W50pc Validate_Required',
         Sort         => 'AlphanumericValue',
         PossibleNone => 0,
@@ -835,7 +835,7 @@ sub _ShowScreen {
             1 => Translatable('Yes'),
         },
         Name       => 'MultiValue',
-        SelectedID => $Param{MultiValue} || '0',
+        SelectedID => $Param{Config}{MultiValue} || '0',
         Class      => 'Modernize W50pc',
     );
 
@@ -871,7 +871,7 @@ sub _ShowScreen {
         Class        => 'Modernize W50pc Validate_Required',
     );
 
-    my $PossibleNone = $Param{PossibleNone} || '0';
+    my $PossibleNone = $Param{Config}{PossibleNone} || '0';
 
     # create translatable values option list
     my $PossibleNoneStrg = $LayoutObject->BuildSelection(
@@ -885,7 +885,7 @@ sub _ShowScreen {
     );
 
     # define tooltip
-    my $Tooltip = $Param{Tooltip} // '';
+    my $Tooltip = $Param{Config}{Tooltip} // '';
 
     # create the default value element
     $LayoutObject->Block(

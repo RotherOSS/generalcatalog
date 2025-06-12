@@ -823,7 +823,7 @@ sub _ShowScreen {
     my $GeneralCatalogClassStrg = $LayoutObject->BuildSelection(
         Data         => $ClassList,
         Name         => 'GeneralCatalogClass',
-        SelectedID   => $Param{Config}{GeneralCatalogClass} || '0',
+        SelectedID   => $Param{Config}{Class} || '0',
         Class        => 'Modernize W50pc Validate_Required',
         Sort         => 'AlphanumericValue',
         PossibleNone => 0,

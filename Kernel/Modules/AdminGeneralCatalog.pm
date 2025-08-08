@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2025 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -18,6 +18,13 @@ package Kernel::Modules::AdminGeneralCatalog;
 
 use strict;
 use warnings;
+
+# core modules
+
+# CPAN modules
+
+# OTOBO modules
+use Kernel::System::VariableCheck qw(IsHashRefWithData);
 
 our $ObjectManagerDisabled = 1;
 
@@ -366,6 +373,22 @@ sub Run {
                 UserID => $Self->{UserID},
             );
             $ItemID = $Success;
+
+            if ($Success) {
+
+                # check if item is first of class
+                my $ItemList = $GeneralCatalogObject->ItemList(
+                    Class => $ItemData{Class},
+                    Valid => 0,
+                );
+
+                # if so, redirect into edit mask with newly created item to force setting preferences values
+                if ( IsHashRefWithData($ItemList) && ( keys $ItemList->%* ) == 1 ) {
+                    return $LayoutObject->Redirect(
+                        OP => "Action=$Self->{Action};Subaction=ItemEdit;Class=$ItemData{Class};ItemID=$ItemID"
+                    );
+                }
+            }
         }
         else {
             $Success = $GeneralCatalogObject->ItemUpdate(

@@ -43,7 +43,7 @@ ITSM.GeneralCatalog = ITSM.GeneralCatalog || {};
         jscolor.install();
     };
 
-    Core.Init.RegisterNamespace(TargetNS, 'JS_LOADED');
+    Core.Init.RegisterNamespace(TargetNS, 'CONFIG_LOADED');
 
     return TargetNS;
 }(ITSM.GeneralCatalog.JSColorPicker || {}));

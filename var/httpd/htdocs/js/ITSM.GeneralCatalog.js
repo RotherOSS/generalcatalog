@@ -35,6 +35,12 @@ var ITSM = ITSM || {};
      */
     TargetNS.Init = function() {
 
+        // init checkbox to include invalid elements
+        $('input#IncludeInvalid').off('change').on('change', function () {
+            var URL = Core.Config.Get("Baselink") + 'Action=' + Core.Config.Get("Action") + ';Subaction=ItemList;Class=' + $('[name="Class"]').val() + ';IncludeInvalid=' + ( $(this).is(':checked') ? 1 : 0 );
+            window.location.href = URL;
+        });
+
         if (typeof Core.Config.Get('WarningIncidentState') !== 'undefined'
             && parseInt(Core.Config.Get('WarningIncidentState'), 10) === 1
         ) {

@@ -36,6 +36,7 @@ sub Data {
     $Self->{Translation}->{'Edit Item'} = 'Endre objekt';
     $Self->{Translation}->{'Add Class'} = 'Legg til klasse';
     $Self->{Translation}->{'Add Item'} = 'Legg til oppføring';
+    $Self->{Translation}->{'Include invalid items'} = '';
     $Self->{Translation}->{'Add Catalog Item'} = 'Legg til katalogobjekt';
     $Self->{Translation}->{'Add Catalog Class'} = 'Legg til katalog-klasse';
     $Self->{Translation}->{'Catalog Class'} = 'Katalogklasse';

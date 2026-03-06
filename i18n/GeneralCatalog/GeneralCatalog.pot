@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
-"POT-Creation-Date: 2024-08-02 02:19+0000\n"
+"POT-Creation-Date: 2026-03-06 11:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,10 @@ msgstr ""
 
 #. Template: AdminGeneralCatalog
 msgid "Add Item"
+msgstr ""
+
+#. Template: AdminGeneralCatalog
+msgid "Include invalid items"
 msgstr ""
 
 #. Template: AdminGeneralCatalog

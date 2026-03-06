@@ -36,6 +36,7 @@ sub Data {
     $Self->{Translation}->{'Edit Item'} = 'Editar elemento';
     $Self->{Translation}->{'Add Class'} = 'Añadir Clase';
     $Self->{Translation}->{'Add Item'} = 'Añadir elemento';
+    $Self->{Translation}->{'Include invalid items'} = '';
     $Self->{Translation}->{'Add Catalog Item'} = 'Añadir Elemento al Catálogo';
     $Self->{Translation}->{'Add Catalog Class'} = 'Añadir Clase al Catálogo';
     $Self->{Translation}->{'Catalog Class'} = 'Clase de Catálogo';

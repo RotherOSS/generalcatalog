@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
-# This file is distributed under the same license as the OTOBO Installation Guide package.
+# Copyright (C) 2019–2026 Rother OSS GmbH, https://otobo.io
+# This file is distributed under the same license as the OTOBO Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
+"Project-Id-Version: OTOBO Documentation dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 04:33+0200\n"
+"POT-Creation-Date: 2026-05-19 11:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,225 +16,228 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../content/index.rst:25
+#: ../content/index.rst:5
+msgid "Contents"
+msgstr ""
+
+#: ../content/index.rst:10
 msgid "General Catalog"
 msgstr ""
 
-#: ../../content/index.rst:28
+#: ../content/index.rst:13
 msgid "Description"
 msgstr ""
 
-#: ../../content/index.rst:29
+#: ../content/index.rst:14
 msgid "The General Catalog package."
 msgstr ""
 
-#: ../../content/index.rst:32
+#: ../content/index.rst:17
 msgid "System requirements"
 msgstr ""
 
-#: ../../content/index.rst:35
+#: ../content/index.rst:20
 msgid "Framework"
 msgstr ""
 
-#: ../../content/index.rst:36
+#: ../content/index.rst:21
 msgid "OTOBO 11.0.x"
 msgstr ""
 
-#: ../../content/index.rst:39
+#: ../content/index.rst:24
 msgid "Packages"
 msgstr ""
 
-#: ../../content/index.rst:40
-#: ../../content/index.rst:44
+#: ../content/index.rst:25
+#: ../content/index.rst:29
 msgid "\\-"
 msgstr ""
 
-#: ../../content/index.rst:43
+#: ../content/index.rst:28
 msgid "Third-party software"
 msgstr ""
 
-#: ../../content/index.rst:47
+#: ../content/index.rst:32
 msgid "Usage"
 msgstr ""
 
-#: ../../content/index.rst:50
+#: ../content/index.rst:35
 msgid "Administrator Interface"
 msgstr ""
 
-#: ../../content/index.rst:52
+#: ../content/index.rst:37
 msgid "After installation of the package a new module will be available in the administrator interface *General Catalog*."
 msgstr ""
 
-#: ../../content/index.rst:54
+#: ../content/index.rst:39
 msgid "Use this screen to add catalog classes and items to the system. If only this package is installed to the system without any OTOBO::ITSM packages, then the general catalog contains no entries. Install other OTOBO::ITSM packages (e.g., ITSM Core) to add some classes and items to the catalog. The general catalog management screen is available in the General Catalog module of the Administration group."
 msgstr ""
 
-#: ../../content/index.rst:57
+#: ../content/index.rst:42
 msgid "Agent Interface"
 msgstr ""
 
-#: ../../content/index.rst:59
+#: ../content/index.rst:44
 msgid "This package has no agent interface."
 msgstr ""
 
-#: ../../content/index.rst:62
+#: ../content/index.rst:47
 msgid "Customer Interface"
 msgstr ""
 
-#: ../../content/index.rst:64
+#: ../content/index.rst:49
 msgid "This package has no customer interface."
 msgstr ""
 
-#: ../../content/index.rst:67
+#: ../content/index.rst:52
 msgid "Setup"
 msgstr ""
 
-#: ../../content/index.rst:70
+#: ../content/index.rst:55
 msgid "Configuration Reference"
 msgstr ""
 
-#: ../../content/index.rst:73
+#: ../content/index.rst:58
 msgid "Core::DynamicFields::DriverRegistration"
 msgstr ""
 
-#: ../../content/index.rst:76
+#: ../content/index.rst:61
 msgid "DynamicFields::Driver###GeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:77
+#: ../content/index.rst:62
 msgid "DynamicField backend registration."
 msgstr ""
 
-#: ../../content/index.rst:80
+#: ../content/index.rst:65
 msgid "Core::GeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:83
+#: ../content/index.rst:68
 msgid "GeneralCatalogPreferences###Permissions"
 msgstr ""
 
-#: ../../content/index.rst:84
+#: ../content/index.rst:69
 msgid "Parameters for the example permission groups of the general catalog attributes."
 msgstr ""
 
-#: ../../content/index.rst:87
+#: ../content/index.rst:72
 msgid "GeneralCatalogPreferences###Comment2"
 msgstr ""
 
-#: ../../content/index.rst:88
+#: ../content/index.rst:73
 msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr ""
 
-#: ../../content/index.rst:91
+#: ../content/index.rst:76
 msgid "Frontend::Admin::ModuleRegistration"
 msgstr ""
 
-#: ../../content/index.rst:94
+#: ../content/index.rst:79
 msgid "Frontend::Module###AdminGeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:95
+#: ../content/index.rst:80
 msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
 msgstr ""
 
-#: ../../content/index.rst:98
+#: ../content/index.rst:83
 msgid "Frontend::Module###AdminDynamicFieldGeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:99
+#: ../content/index.rst:84
 msgid "Frontend module registration for the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:102
+#: ../content/index.rst:87
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
 msgstr ""
 
-#: ../../content/index.rst:105
+#: ../content/index.rst:90
 msgid "Frontend::NavigationModule###AdminGeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:106
+#: ../content/index.rst:91
 msgid "Admin area navigation for the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:109
+#: ../content/index.rst:94
 msgid "Frontend::Admin::ModuleRegistration::Loader"
 msgstr ""
 
-#: ../../content/index.rst:112
+#: ../content/index.rst:97
 msgid "Loader::Module::AdminGeneralCatalog###001-GeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:113
-#: ../../content/index.rst:117
+#: ../content/index.rst:98
+#: ../content/index.rst:102
 msgid "Loader module registration for the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:116
+#: ../content/index.rst:101
 msgid "Loader::Module::AdminDynamicFieldGeneralCatalog###002-Ticket"
 msgstr ""
 
-#: ../../content/index.rst:120
+#: ../content/index.rst:105
 msgid "Frontend::Admin::ModuleRegistration::MainMenu"
 msgstr ""
 
-#: ../../content/index.rst:123
+#: ../content/index.rst:108
 msgid "Frontend::Navigation###AdminGeneralCatalog###001-GeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:124
+#: ../content/index.rst:109
 msgid "Main menu item registration."
 msgstr ""
 
-#: ../../content/index.rst:127
+#: ../content/index.rst:112
 msgid "Frontend::Base"
 msgstr ""
 
-#: ../../content/index.rst:130
+#: ../content/index.rst:115
 msgid "GeneralCatalog::Frontend::JSColorPickerPath"
 msgstr ""
 
-#: ../../content/index.rst:131
+#: ../content/index.rst:116
 msgid "Defines the URL JS Color Picker path."
 msgstr ""
 
-#: ../../content/index.rst:134
+#: ../content/index.rst:119
 msgid "Frontend::Base::Loader"
 msgstr ""
 
-#: ../../content/index.rst:137
+#: ../content/index.rst:122
 msgid "Loader::Agent::CommonJS###100-GeneralCatalog"
 msgstr ""
 
-#: ../../content/index.rst:138
+#: ../content/index.rst:123
 msgid "List of JS files to always be loaded for the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:141
+#: ../content/index.rst:126
 msgid "About"
 msgstr ""
 
-#: ../../content/index.rst:144
+#: ../content/index.rst:129
 msgid "Contact"
 msgstr ""
 
-#: ../../content/index.rst:145
+#: ../content/index.rst:130
 msgid "Rother OSS GmbH"
 msgstr ""
 
-#: ../../content/index.rst:146
+#: ../content/index.rst:131
 msgid "Email: hello@otobo.io"
 msgstr ""
 
-#: ../../content/index.rst:147
+#: ../content/index.rst:132
 msgid "Web: https://otobo.io"
 msgstr ""
 
-#: ../../content/index.rst:150
+#: ../content/index.rst:135
 msgid "Version"
 msgstr ""
 
-#: ../../content/index.rst:151
+#: ../content/index.rst:136
 msgid "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-datestamp|"
 msgstr ""
-

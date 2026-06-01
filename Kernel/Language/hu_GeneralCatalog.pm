@@ -36,6 +36,7 @@ sub Data {
     $Self->{Translation}->{'Edit Item'} = 'Elem szerkesztése';
     $Self->{Translation}->{'Add Class'} = 'Osztály hozzáadása';
     $Self->{Translation}->{'Add Item'} = 'Elem hozzáadása';
+    $Self->{Translation}->{'Include invalid items'} = '';
     $Self->{Translation}->{'Add Catalog Item'} = 'Katalóguselem hozzáadása';
     $Self->{Translation}->{'Add Catalog Class'} = 'Katalógusosztály hozzáadása';
     $Self->{Translation}->{'Catalog Class'} = 'Katalógusosztály';

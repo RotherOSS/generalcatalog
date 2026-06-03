@@ -87,8 +87,12 @@ msgid "Dynamic Fields GeneralCatalog Backend GUI"
 msgstr ""
 
 #. SysConfig
-msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr "Usajili wa moduli ya mazingira ya mbele kwa usanidi wa katalogi ya ujumla ya msimamizi katika eneo la usimamizi."
+msgid ""
+"Frontend module registration for the AdminGeneralCatalog configuration in "
+"the admin area."
+msgstr ""
+"Usajili wa moduli ya mazingira ya mbele kwa usanidi wa katalogi ya ujumla ya "
+"msimamizi katika eneo la usimamizi."
 
 #. SysConfig
 msgid "General Catalog"
@@ -103,10 +107,11 @@ msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr "Vigezo kwa mfano Maoni 2 ya sifa za katalogi za ujumla."
 
 #. SysConfig
-msgid "Parameters for the example permission groups of the general catalog attributes."
+msgid ""
+"Parameters for the example permission groups of the general catalog "
+"attributes."
 msgstr "Vigezo kwa mfano ruhusa za vikundi kwa sifa za katalogi za ujumla."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr ""
-

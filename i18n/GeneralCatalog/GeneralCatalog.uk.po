@@ -87,8 +87,12 @@ msgid "Dynamic Fields GeneralCatalog Backend GUI"
 msgstr ""
 
 #. SysConfig
-msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr "Frontend модуль реєстрації в зоні адміністрування для конфігурації AdminGeneralCatalog"
+msgid ""
+"Frontend module registration for the AdminGeneralCatalog configuration in "
+"the admin area."
+msgstr ""
+"Frontend модуль реєстрації в зоні адміністрування для конфігурації "
+"AdminGeneralCatalog"
 
 #. SysConfig
 msgid "General Catalog"
@@ -103,10 +107,11 @@ msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr "Параметри для прикладу коментар 2 атрибутів загального каталогу."
 
 #. SysConfig
-msgid "Parameters for the example permission groups of the general catalog attributes."
+msgid ""
+"Parameters for the example permission groups of the general catalog "
+"attributes."
 msgstr "Параметри для прикладу дозволу груп загальних атрибутів каталогу."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr ""
-

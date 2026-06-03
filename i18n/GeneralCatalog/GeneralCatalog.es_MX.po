@@ -64,7 +64,8 @@ msgstr "Editar artículo del catálogo"
 
 #. JS File: ITSM.GeneralCatalog
 msgid "Warning incident state can not be set to invalid."
-msgstr "Advertencia El estado del incidente no se puede establecer como inválido."
+msgstr ""
+"Advertencia El estado del incidente no se puede establecer como inválido."
 
 #. SysConfig
 msgid "Comment 2"
@@ -87,8 +88,12 @@ msgid "Dynamic Fields GeneralCatalog Backend GUI"
 msgstr ""
 
 #. SysConfig
-msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr "Registro del módulo de Frontend para la administración del catálogo general en el área de administración."
+msgid ""
+"Frontend module registration for the AdminGeneralCatalog configuration in "
+"the admin area."
+msgstr ""
+"Registro del módulo de Frontend para la administración del catálogo general "
+"en el área de administración."
 
 #. SysConfig
 msgid "General Catalog"
@@ -100,13 +105,17 @@ msgstr ""
 
 #. SysConfig
 msgid "Parameters for the example comment 2 of the general catalog attributes."
-msgstr "Parámetros para el comentario de ejemplo 2 del catálogo general de atributos."
+msgstr ""
+"Parámetros para el comentario de ejemplo 2 del catálogo general de atributos."
 
 #. SysConfig
-msgid "Parameters for the example permission groups of the general catalog attributes."
-msgstr "Parámetros para el ejemplo de permisos de grupo del catálogo general de atributos."
+msgid ""
+"Parameters for the example permission groups of the general catalog "
+"attributes."
+msgstr ""
+"Parámetros para el ejemplo de permisos de grupo del catálogo general de "
+"atributos."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr "Permisos de grupo"
-

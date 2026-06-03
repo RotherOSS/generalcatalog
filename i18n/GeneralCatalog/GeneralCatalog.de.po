@@ -87,8 +87,12 @@ msgid "Dynamic Fields GeneralCatalog Backend GUI"
 msgstr "Backend-GUI für den Dynamic Fields GeneralCatalog"
 
 #. SysConfig
-msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr "Registrierung des Frontend-Moduls für die Konfiguration von AdminGeneralCatalog im Admin-Bereich."
+msgid ""
+"Frontend module registration for the AdminGeneralCatalog configuration in "
+"the admin area."
+msgstr ""
+"Registrierung des Frontend-Moduls für die Konfiguration von "
+"AdminGeneralCatalog im Admin-Bereich."
 
 #. SysConfig
 msgid "General Catalog"
@@ -103,10 +107,13 @@ msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr "Parameter für den Beispiel-Kommentar 2 der General Catalog-Attribute."
 
 #. SysConfig
-msgid "Parameters for the example permission groups of the general catalog attributes."
-msgstr "Parameter für die zugriffsberechtigten Beispielgruppen der General Catalog-Attribute."
+msgid ""
+"Parameters for the example permission groups of the general catalog "
+"attributes."
+msgstr ""
+"Parameter für die zugriffsberechtigten Beispielgruppen der General Catalog-"
+"Attribute."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr "Berechtigungsgruppe"
-

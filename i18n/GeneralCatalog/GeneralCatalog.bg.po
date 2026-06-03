@@ -64,7 +64,9 @@ msgstr "Редактиране на елемент от каталога"
 
 #. JS File: ITSM.GeneralCatalog
 msgid "Warning incident state can not be set to invalid."
-msgstr "Състоянието на инцидент с предупреждение не може да бъде зададено като невалидно."
+msgstr ""
+"Състоянието на инцидент с предупреждение не може да бъде зададено като "
+"невалидно."
 
 #. SysConfig
 msgid "Comment 2"
@@ -87,8 +89,12 @@ msgid "Dynamic Fields GeneralCatalog Backend GUI"
 msgstr ""
 
 #. SysConfig
-msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr "Регистрация на предния модул за конфигурацията на Администраторския Основен каталог в Административната част."
+msgid ""
+"Frontend module registration for the AdminGeneralCatalog configuration in "
+"the admin area."
+msgstr ""
+"Регистрация на предния модул за конфигурацията на Администраторския Основен "
+"каталог в Административната част."
 
 #. SysConfig
 msgid "General Catalog"
@@ -103,10 +109,12 @@ msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr "Параметри на примерния коментар 2 на атрибутите на общия каталог."
 
 #. SysConfig
-msgid "Parameters for the example permission groups of the general catalog attributes."
-msgstr "Параметри за примерните разрешителни групи от атрибутите на общия каталог."
+msgid ""
+"Parameters for the example permission groups of the general catalog "
+"attributes."
+msgstr ""
+"Параметри за примерните разрешителни групи от атрибутите на общия каталог."
 
 #. SysConfig
 msgid "Permission Group"
 msgstr "Група разрешения"
-

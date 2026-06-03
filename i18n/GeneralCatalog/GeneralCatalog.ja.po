@@ -87,8 +87,11 @@ msgid "Dynamic Fields GeneralCatalog Backend GUI"
 msgstr ""
 
 #. SysConfig
-msgid "Frontend module registration for the AdminGeneralCatalog configuration in the admin area."
-msgstr "管理エリアでのAdminGeneralCatalogのフロントエンドモジュールの登録します。"
+msgid ""
+"Frontend module registration for the AdminGeneralCatalog configuration in "
+"the admin area."
+msgstr ""
+"管理エリアでのAdminGeneralCatalogのフロントエンドモジュールの登録します。"
 
 #. SysConfig
 msgid "General Catalog"
@@ -103,10 +106,11 @@ msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr "ジェネラル・カタログ属性のコメント例 2の設定値"
 
 #. SysConfig
-msgid "Parameters for the example permission groups of the general catalog attributes."
+msgid ""
+"Parameters for the example permission groups of the general catalog "
+"attributes."
 msgstr "ジェネラル・カタログの属性の権限グループの設定値例です。"
 
 #. SysConfig
 msgid "Permission Group"
 msgstr "権限グループ"
-

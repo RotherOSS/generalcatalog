@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-19 11:30+0000\n"
-"PO-Revision-Date: 2025-01-13 15:21+0000\n"
-"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
-"Language-Team: German <http://translate.otobo.org/projects/manual-"
-"generalcatalog/master/de/>\n"
+"PO-Revision-Date: 2026-06-24 13:00+0000\n"
+"Last-Translator: Stefan Abel <sta@rother-oss.com>\n"
+"Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
+"manuals/generalcatalog-documentation/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.16\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../content/index.rst:5
@@ -29,7 +29,7 @@ msgstr "Kontakt"
 
 #: ../content/index.rst:10
 msgid "General Catalog"
-msgstr ""
+msgstr "General Katalog"
 
 #: ../content/index.rst:13
 msgid "Description"
@@ -37,7 +37,7 @@ msgstr "Beschreibung"
 
 #: ../content/index.rst:14
 msgid "The General Catalog package."
-msgstr ""
+msgstr "Der General Katalog-Paket."
 
 #: ../content/index.rst:17
 msgid "System requirements"

@@ -106,7 +106,7 @@ sub _Add {
     my %GetParam;
 
     # check if we clone from an existing field
-    my $CloneFieldID = $ParamObject->GetParam( Param => "ID" );
+    my $CloneFieldID = $ParamObject->GetParam( Param => "CloneFieldID" );
     if ($CloneFieldID) {
         my $FieldConfig = $Kernel::OM->Get('Kernel::System::DynamicField')->DynamicFieldGet(
             ID => $CloneFieldID,
@@ -190,6 +190,7 @@ sub _Add {
         BreadcrumbText => $LayoutObject->{LanguageObject}->Translate( 'Add %s field', $LayoutObject->{LanguageObject}->Translate($FieldTypeName) ),
         ObjectTypeName => $ObjectTypeName,
         FieldTypeName  => $FieldTypeName,
+        Namespace      => $Namespace,
     );
 }
 
@@ -747,17 +748,20 @@ sub _ChangeAction {
 sub _ShowScreen {
     my ( $Self, %Param ) = @_;
 
+    my $Namespace = $Param{Namespace};
     $Param{DisplayFieldName} = 'New';
 
-    my $Namespace;
-    if ( $Param{Mode} eq 'Change' || ( $Param{Name} && !$Param{CloneFieldID} ) ) {
-        $Param{ShowWarning}      = 'ShowWarning';
-        $Param{DisplayFieldName} = $Param{Name};
+    if ( $Param{Mode} eq 'Change' || $Param{Name} ) {
+
+        if ( !$Param{CloneFieldID} ) {
+            $Param{ShowWarning}      = 'ShowWarning';
+            $Param{DisplayFieldName} = $Param{Name};
+        }
 
         # check for namespace
         if ( $Param{Name} =~ /(.*)-(.*)/ ) {
             $Namespace = $1;
-            $Param{PlainFieldName} = $2;
+            $Param{PlainFieldName} = $2 unless $Param{CloneFieldID};
         }
         else {
             $Param{PlainFieldName} = $Param{Name};
@@ -848,7 +852,7 @@ sub _ShowScreen {
             PossibleNone  => 1,
             Translation   => 0,
             Sort          => 'AlphanumericValue',
-            Class         => 'Modernize W50pc',
+            Class         => 'Modernize W75pc',
         );
 
         $LayoutObject->Block(
@@ -868,7 +872,7 @@ sub _ShowScreen {
         SelectedID   => $Param{ValidID} || 1,
         PossibleNone => 0,
         Translation  => 1,
-        Class        => 'Modernize W50pc Validate_Required',
+        Class        => 'Modernize W50pc',
     );
 
     my $PossibleNone = $Param{Config}{PossibleNone} || '0';
@@ -885,7 +889,7 @@ sub _ShowScreen {
     );
 
     # define tooltip
-    my $Tooltip = $Param{Config}{Tooltip} // '';
+    my $Tooltip = $Param{Tooltip} // '';
 
     # create the default value element
     $LayoutObject->Block(
@@ -961,34 +965,36 @@ sub _ShowScreen {
             },
         );
     }
-    if ( IsStringWithData( $Param{NamespaceFilter} ) ) {
-        $FilterStrg .= ";NamespaceFilter=" . $LayoutObject->Output(
-            Template => '[% Data.Filter | uri %]',
-            Data     => {
-                Filter => $Param{NamespaceFilter},
-            },
-        );
+
+    if ( IsArrayRefWithData($NamespaceList) ) {
+        if ( IsStringWithData( $Param{NamespaceFilter} ) ) {
+            $FilterStrg .= ";NamespaceFilter=" . $LayoutObject->Output(
+                Template => '[% Data.Filter | uri %]',
+                Data     => {
+                    Filter => $Param{NamespaceFilter},
+                },
+            );
+        }
     }
 
     # generate output
-    $Output .= $LayoutObject->Output(
-        TemplateFile => 'AdminDynamicFieldGeneralCatalog',
-        Data         => {
-            %Param,
-            FilterStrg              => $FilterStrg,
-            ValidityStrg            => $ValidityStrg,
-            DynamicFieldOrderStrg   => $DynamicFieldOrderStrg,
-            GeneralCatalogClassStrg => $GeneralCatalogClassStrg,
-            MultiValueStrg          => $MultiValueStrg,
-            PossibleNoneStrg        => $PossibleNoneStrg,
-            ReadonlyInternalField   => $ReadonlyInternalField,
-            Tooltip                 => $Tooltip,
-        }
-    );
-
-    $Output .= $LayoutObject->Footer();
-
-    return $Output;
+    return join '',
+        $Output,
+        $LayoutObject->Output(
+            TemplateFile => 'AdminDynamicFieldGeneralCatalog',
+            Data         => {
+                %Param,
+                FilterStrg              => $FilterStrg,
+                ValidityStrg            => $ValidityStrg,
+                DynamicFieldOrderStrg   => $DynamicFieldOrderStrg,
+                GeneralCatalogClassStrg => $GeneralCatalogClassStrg,
+                MultiValueStrg          => $MultiValueStrg,
+                PossibleNoneStrg        => $PossibleNoneStrg,
+                ReadonlyInternalField   => $ReadonlyInternalField,
+                Tooltip                 => $Tooltip,
+            },
+        ),
+        $LayoutObject->Footer;
 }
 
 1;

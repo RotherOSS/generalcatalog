@@ -27,7 +27,7 @@ sub Data {
     $Self->{Translation}->{'Functionality'} = 'Funktionalität';
 
     # Template: AdminDynamicFieldGeneralCatalog
-    $Self->{Translation}->{'Filter items by class.'} = '';
+    $Self->{Translation}->{'Filter items by class.'} = 'Elemente nach Klassen filtern.';
     $Self->{Translation}->{'Set the general catalog class.'} = 'Verwalten der General Catalog-Klasse.';
 
     # Template: AdminGeneralCatalog

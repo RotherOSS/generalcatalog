@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-07 14:10+0000\n"
-"PO-Revision-Date: 2026-07-13 12:00+0000\n"
+"PO-Revision-Date: 2026-07-13 16:00+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/"
 "addons/manuals/generalcatalog-documentation/hu/>\n"
@@ -46,10 +46,8 @@ msgid "Framework"
 msgstr "Keretrendszer"
 
 #: ../content/index.rst:21
-#, fuzzy
-#| msgid "OTOBO 11.0.x"
 msgid "OTOBO 11.1.x"
-msgstr "OTOBO 11.0.x"
+msgstr "OTOBO 11.1.x"
 
 #: ../content/index.rst:24
 msgid "Packages"

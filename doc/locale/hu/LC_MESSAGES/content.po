@@ -4,74 +4,78 @@
 # Guide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-19 11:30+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2026-07-13 12:00+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/"
+"addons/manuals/generalcatalog-documentation/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../content/index.rst:5
 msgid "Contents"
-msgstr ""
+msgstr "Tartalom"
 
 #: ../content/index.rst:10
 msgid "General Catalog"
-msgstr ""
+msgstr "Általános katalógus"
 
 #: ../content/index.rst:13
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #: ../content/index.rst:14
 msgid "The General Catalog package."
-msgstr ""
+msgstr "Az általános katalógus csomag."
 
 #: ../content/index.rst:17
 msgid "System requirements"
-msgstr ""
+msgstr "Rendszerkövetelmények"
 
 #: ../content/index.rst:20
 msgid "Framework"
-msgstr ""
+msgstr "Keretrendszer"
 
 #: ../content/index.rst:21
 msgid "OTOBO 11.0.x"
-msgstr ""
+msgstr "OTOBO 11.0.x"
 
 #: ../content/index.rst:24
 msgid "Packages"
-msgstr ""
+msgstr "Csomagok"
 
 #: ../content/index.rst:25 ../content/index.rst:29
 msgid "\\-"
-msgstr ""
+msgstr "\\-"
 
 #: ../content/index.rst:28
 msgid "Third-party software"
-msgstr ""
+msgstr "Harmadik féltől származó szoftverek"
 
 #: ../content/index.rst:32
 msgid "Usage"
-msgstr ""
+msgstr "Használat"
 
 #: ../content/index.rst:35
 msgid "Administrator Interface"
-msgstr ""
+msgstr "Adminisztrátori felület"
 
 #: ../content/index.rst:37
 msgid ""
 "After installation of the package a new module will be available in the "
 "administrator interface *General Catalog*."
 msgstr ""
+"A csomag telepítése után egy új modul érhető el az adminisztrátori felületen "
+"*Általános katalógus* néven."
 
 #: ../content/index.rst:39
 msgid ""
@@ -82,177 +86,192 @@ msgid ""
 "catalog management screen is available in the General Catalog module of the "
 "Administration group."
 msgstr ""
+"Használja ezt a képernyőt, hogy katalógusosztályokat és elemeket adjon a "
+"rendszerhez. Ha csak ez a csomag van telepítve a rendszerre egyéb "
+"OTOBO::ITSM csomagok nélkül, akkor az általános katalógus nem tartalmaz "
+"bejegyzéseket. Telepítsen más OTOBO::ITSM csomagokat (például az ITSM "
+"alapcsomagot), hogy osztályokat és elemeket adjon a katalógushoz. Az "
+"általános katalógus kezelőképernyője az *Adminisztráció* csoport *Általános "
+"katalógus* moduljában érhető el."
 
 #: ../content/index.rst:42
 msgid "Agent Interface"
-msgstr ""
+msgstr "Ügyintézői felület"
 
 #: ../content/index.rst:44
 msgid "This package has no agent interface."
-msgstr ""
+msgstr "Ennek a csomagnak nincs ügyintézői felülete."
 
 #: ../content/index.rst:47
 msgid "Customer Interface"
-msgstr ""
+msgstr "Ügyfélfelület"
 
 #: ../content/index.rst:49
 msgid "This package has no customer interface."
-msgstr ""
+msgstr "Ennek a csomagnak nincs ügyfélfelülete."
 
 #: ../content/index.rst:52
 msgid "Setup"
-msgstr ""
+msgstr "Beállítás"
 
 #: ../content/index.rst:55
 msgid "Configuration Reference"
-msgstr ""
+msgstr "Beállítások hivatkozása"
 
 #: ../content/index.rst:58
 msgid "Core::DynamicFields::DriverRegistration"
-msgstr ""
+msgstr "Core::DynamicFields::DriverRegistration"
 
 #: ../content/index.rst:61
 msgid "DynamicFields::Driver###GeneralCatalog"
-msgstr ""
+msgstr "DynamicFields::Driver###GeneralCatalog"
 
 #: ../content/index.rst:62
 msgid "DynamicField backend registration."
-msgstr ""
+msgstr "Dinamikus mező háttérprogram regisztráció."
 
 #: ../content/index.rst:65
 msgid "Core::GeneralCatalog"
-msgstr ""
+msgstr "Core::GeneralCatalog"
 
 #: ../content/index.rst:68
 msgid "GeneralCatalogPreferences###Permissions"
-msgstr ""
+msgstr "GeneralCatalogPreferences###Permissions"
 
 #: ../content/index.rst:69
 msgid ""
 "Parameters for the example permission groups of the general catalog "
 "attributes."
 msgstr ""
+"Paraméterek az általános katalógus attribútumainak példa jogosultság "
+"csoportjaihoz."
 
 #: ../content/index.rst:72
 msgid "GeneralCatalogPreferences###Comment2"
-msgstr ""
+msgstr "GeneralCatalogPreferences###Comment2"
 
 #: ../content/index.rst:73
 msgid "Parameters for the example comment 2 of the general catalog attributes."
 msgstr ""
+"Paraméterek az általános katalógus attribútumainak 2. példa megjegyzéseihez."
 
 #: ../content/index.rst:76
 msgid "Frontend::Admin::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration"
 
 #: ../content/index.rst:79
 msgid "Frontend::Module###AdminGeneralCatalog"
-msgstr ""
+msgstr "Frontend::Module###AdminGeneralCatalog"
 
 #: ../content/index.rst:80
 msgid ""
 "Frontend module registration for the AdminGeneralCatalog configuration in "
 "the admin area."
 msgstr ""
+"Előtétprogram modul regisztráció az adminisztrációs területen lévő általános "
+"katalógus beállításhoz."
 
 #: ../content/index.rst:83
 msgid "Frontend::Module###AdminDynamicFieldGeneralCatalog"
-msgstr ""
+msgstr "Frontend::Module###AdminDynamicFieldGeneralCatalog"
 
 #: ../content/index.rst:84
 msgid "Frontend module registration for the agent interface."
-msgstr ""
+msgstr "Előtétprogram-modul regisztráció az ügyintézői felülethez."
 
 #: ../content/index.rst:87
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::AdminOverview"
 
 #: ../content/index.rst:90
 msgid "Frontend::NavigationModule###AdminGeneralCatalog"
-msgstr ""
+msgstr "Frontend::NavigationModule###AdminGeneralCatalog"
 
 #: ../content/index.rst:91
 msgid "Admin area navigation for the agent interface."
-msgstr ""
+msgstr "Adminisztrációs terület navigáció az ügyintézői felülethez."
 
 #: ../content/index.rst:94
 msgid "Frontend::Admin::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::Loader"
 
 #: ../content/index.rst:97
 msgid "Loader::Module::AdminGeneralCatalog###001-GeneralCatalog"
-msgstr ""
+msgstr "Loader::Module::AdminGeneralCatalog###001-GeneralCatalog"
 
 #: ../content/index.rst:98 ../content/index.rst:102
 msgid "Loader module registration for the agent interface."
-msgstr ""
+msgstr "Betöltőmodul regisztráció az ügyintézői felülethez."
 
 #: ../content/index.rst:101
 msgid "Loader::Module::AdminDynamicFieldGeneralCatalog###002-Ticket"
-msgstr ""
+msgstr "Loader::Module::AdminDynamicFieldGeneralCatalog###002-Ticket"
 
 #: ../content/index.rst:105
 msgid "Frontend::Admin::ModuleRegistration::MainMenu"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::MainMenu"
 
 #: ../content/index.rst:108
 msgid "Frontend::Navigation###AdminGeneralCatalog###001-GeneralCatalog"
-msgstr ""
+msgstr "Frontend::Navigation###AdminGeneralCatalog###001-GeneralCatalog"
 
 #: ../content/index.rst:109
 msgid "Main menu item registration."
-msgstr ""
+msgstr "Főmenü elem regisztráció."
 
 #: ../content/index.rst:112
 msgid "Frontend::Base"
-msgstr ""
+msgstr "Frontend::Base"
 
 #: ../content/index.rst:115
 msgid "GeneralCatalog::Frontend::JSColorPickerPath"
-msgstr ""
+msgstr "GeneralCatalog::Frontend::JSColorPickerPath"
 
 #: ../content/index.rst:116
 msgid "Defines the URL JS Color Picker path."
-msgstr ""
+msgstr "Meghatározza a JS színválasztó útvonalának URL-ét."
 
 #: ../content/index.rst:119
 msgid "Frontend::Base::Loader"
-msgstr ""
+msgstr "Frontend::Base::Loader"
 
 #: ../content/index.rst:122
 msgid "Loader::Agent::CommonJS###100-GeneralCatalog"
-msgstr ""
+msgstr "Loader::Agent::CommonJS###100-GeneralCatalog"
 
 #: ../content/index.rst:123
 msgid "List of JS files to always be loaded for the agent interface."
 msgstr ""
+"JavaScript-fájlok listája, amelyek mindig betöltődnek az ügyintézői "
+"felületnél."
 
 #: ../content/index.rst:126
 msgid "About"
-msgstr ""
+msgstr "Névjegy"
 
 #: ../content/index.rst:129
 msgid "Contact"
-msgstr ""
+msgstr "Kapcsolat"
 
 #: ../content/index.rst:130
 msgid "Rother OSS GmbH"
-msgstr ""
+msgstr "Rother OSS GmbH"
 
 #: ../content/index.rst:131
 msgid "Email: hello@otobo.io"
-msgstr ""
+msgstr "E-mail: hello@otobo.io"
 
 #: ../content/index.rst:132
 msgid "Web: https://otobo.io"
-msgstr ""
+msgstr "Web: https://otobo.io"
 
 #: ../content/index.rst:135
 msgid "Version"
-msgstr ""
+msgstr "Verzió"
 
 #: ../content/index.rst:136
 msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp|"
 msgstr ""
+"Szerző: |doc-vendor| / Verzió: |doc-version| / Kiadás dátuma: |doc-datestamp|"

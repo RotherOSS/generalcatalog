@@ -130,13 +130,13 @@
                             </td>
                         </tr>
 [% RenderBlockEnd("OverviewClassList") %]
-[% RenderBlockStart("NoDataFoundMsg") %]
+[% RenderBlockStart("NoClassDataFoundMsg") %]
                         <tr>
                             <td>
                                 [% Translate("No data found.") | html %]
                             </td>
                         </tr>
-[% RenderBlockEnd("NoDataFoundMsg") %]
+[% RenderBlockEnd("NoClassDataFoundMsg") %]
                     </tbody>
                 </table>
             </div>
@@ -164,6 +164,13 @@
                             <td class="Center">[% Translate(Data.Valid) | html %]</td>
                         </tr>
 [% RenderBlockEnd("OverviewItemList") %]
+[% RenderBlockStart("NoItemDataFoundMsg") %]
+                        <tr>
+                            <td colspan="5">
+                                [% Translate("No data found.") | html %]
+                            </td>
+                        </tr>
+[% RenderBlockEnd("NoItemDataFoundMsg") %]
                     </tbody>
                 </table>
             </div>

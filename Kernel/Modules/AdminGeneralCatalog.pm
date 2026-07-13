@@ -120,24 +120,30 @@ sub Run {
 
         # check item list
         if ( !$ItemIDList || !%{$ItemIDList} ) {
-            return $LayoutObject->ErrorScreen();
-        }
 
-        for my $ItemID ( sort { $ItemIDList->{$a} cmp $ItemIDList->{$b} } keys %{$ItemIDList} ) {
-
-            # get item data
-            my $ItemData = $GeneralCatalogObject->ItemGet(
-                ItemID => $ItemID,
-            );
-
-            # output overview item list
+            # display a no data found msg
             $LayoutObject->Block(
-                Name => 'OverviewItemList',
-                Data => {
-                    %{$ItemData},
-                    Valid => $ValidList{ $ItemData->{ValidID} },
-                },
+                Name => 'NoItemDataFoundMsg',
+                Data => {},
             );
+        }
+        else {
+            for my $ItemID ( sort { $ItemIDList->{$a} cmp $ItemIDList->{$b} } keys %{$ItemIDList} ) {
+
+                # get item data
+                my $ItemData = $GeneralCatalogObject->ItemGet(
+                    ItemID => $ItemID,
+                );
+
+                # output overview item list
+                $LayoutObject->Block(
+                    Name => 'OverviewItemList',
+                    Data => {
+                        %{$ItemData},
+                        Valid => $ValidList{ $ItemData->{ValidID} },
+                    },
+                );
+            }
         }
 
         # ActionOverview
@@ -526,7 +532,7 @@ sub Run {
         # otherwise it displays a no data found message
         else {
             $LayoutObject->Block(
-                Name => 'NoDataFoundMsg',
+                Name => 'NoClassDataFoundMsg',
             );
         }
 

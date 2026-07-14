@@ -27,8 +27,8 @@ sub Data {
     $Self->{Translation}->{'Functionality'} = 'Funkcionalitás';
 
     # Template: AdminDynamicFieldGeneralCatalog
-    $Self->{Translation}->{'Filter items by class.'} = '';
-    $Self->{Translation}->{'Set the general catalog class.'} = '';
+    $Self->{Translation}->{'Filter items by class.'} = 'Elemek szűrése osztály szerint.';
+    $Self->{Translation}->{'Set the general catalog class.'} = 'Az általános katalógus osztály beállítása.';
 
     # Template: AdminGeneralCatalog
     $Self->{Translation}->{'General Catalog Management'} = 'Általános katalógus kezelés';
@@ -36,7 +36,7 @@ sub Data {
     $Self->{Translation}->{'Edit Item'} = 'Elem szerkesztése';
     $Self->{Translation}->{'Add Class'} = 'Osztály hozzáadása';
     $Self->{Translation}->{'Add Item'} = 'Elem hozzáadása';
-    $Self->{Translation}->{'Include invalid items'} = '';
+    $Self->{Translation}->{'Include invalid items'} = 'Érvénytelen elemek felvétele';
     $Self->{Translation}->{'Add Catalog Item'} = 'Katalóguselem hozzáadása';
     $Self->{Translation}->{'Add Catalog Class'} = 'Katalógusosztály hozzáadása';
     $Self->{Translation}->{'Catalog Class'} = 'Katalógusosztály';
@@ -50,11 +50,11 @@ sub Data {
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'Az általános katalógus létrehozása és kezelése.';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = 'Meghatározza az általános katalógus 2. megjegyzését.';
     $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'Meghatározza a JS színválasztó útvonalának URL-ét.';
-    $Self->{Translation}->{'Dynamic Fields GeneralCatalog Backend GUI'} = '';
+    $Self->{Translation}->{'Dynamic Fields GeneralCatalog Backend GUI'} = 'Dinamikus mezők általános katalógus háttérprogram grafikus felület';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
         'Előtétprogram modul regisztráció az adminisztrációs területen lévő általános katalógus beállításhoz.';
     $Self->{Translation}->{'General Catalog'} = 'Általános katalógus';
-    $Self->{Translation}->{'GeneralCatalog'} = '';
+    $Self->{Translation}->{'GeneralCatalog'} = 'Általános katalógus';
     $Self->{Translation}->{'Parameters for the example comment 2 of the general catalog attributes.'} =
         'Paraméterek az általános katalógus attribútumainak 2. példa megjegyzéseihez.';
     $Self->{Translation}->{'Parameters for the example permission groups of the general catalog attributes.'} =

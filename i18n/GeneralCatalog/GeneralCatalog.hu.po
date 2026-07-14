@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GeneralCatalog\n"
 "POT-Creation-Date: 2026-03-06 11:08+0000\n"
-"PO-Revision-Date: 2026-07-13 12:00+0000\n"
+"PO-Revision-Date: 2026-07-14 13:26+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/"
 "addons/generalcatalog/hu/>\n"
@@ -19,11 +19,11 @@ msgstr "Funkcionalitás"
 
 #. Template: AdminDynamicFieldGeneralCatalog
 msgid "Filter items by class."
-msgstr ""
+msgstr "Elemek szűrése osztály szerint."
 
 #. Template: AdminDynamicFieldGeneralCatalog
 msgid "Set the general catalog class."
-msgstr ""
+msgstr "Az általános katalógus osztály beállítása."
 
 #. Template: AdminGeneralCatalog
 msgid "General Catalog Management"
@@ -47,7 +47,7 @@ msgstr "Elem hozzáadása"
 
 #. Template: AdminGeneralCatalog
 msgid "Include invalid items"
-msgstr ""
+msgstr "Érvénytelen elemek felvétele"
 
 #. Template: AdminGeneralCatalog
 msgid "Add Catalog Item"
@@ -87,7 +87,7 @@ msgstr "Meghatározza a JS színválasztó útvonalának URL-ét."
 
 #. SysConfig
 msgid "Dynamic Fields GeneralCatalog Backend GUI"
-msgstr ""
+msgstr "Dinamikus mezők általános katalógus háttérprogram grafikus felület"
 
 #. SysConfig
 msgid ""
@@ -103,7 +103,7 @@ msgstr "Általános katalógus"
 
 #. SysConfig
 msgid "GeneralCatalog"
-msgstr ""
+msgstr "Általános katalógus"
 
 #. SysConfig
 msgid "Parameters for the example comment 2 of the general catalog attributes."

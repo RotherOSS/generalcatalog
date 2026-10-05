@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-22 04:04+0200\n"
-"PO-Revision-Date: 2026-10-05 04:41+0000\n"
+"PO-Revision-Date: 2026-10-05 06:42+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese <http://translate.otobo.org/projects/otobo-11-0/"
 "addons/manuals/generalcatalog-documentation/ja/>\n"
@@ -23,53 +23,55 @@ msgstr ""
 
 #: ../../content/index.rst:25
 msgid "General Catalog"
-msgstr ""
+msgstr "一般カタログ"
 
 #: ../../content/index.rst:28
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../content/index.rst:29
 msgid "The General Catalog package."
-msgstr ""
+msgstr "一般カタログ（General Catalog）パッケージ。"
 
 #: ../../content/index.rst:32
 msgid "System requirements"
-msgstr ""
+msgstr "システム要件"
 
 #: ../../content/index.rst:35
 msgid "Framework"
-msgstr ""
+msgstr "フレームワーク"
 
 #: ../../content/index.rst:36
 msgid "OTOBO 11.0.x"
-msgstr ""
+msgstr "OTOBO 11.0.x"
 
 #: ../../content/index.rst:39
 msgid "Packages"
-msgstr ""
+msgstr "パッケージ"
 
 #: ../../content/index.rst:40 ../../content/index.rst:44
 msgid "\\-"
-msgstr ""
+msgstr "\\-"
 
 #: ../../content/index.rst:43
 msgid "Third-party software"
-msgstr ""
+msgstr "サードパーティ製ソフトウェア"
 
 #: ../../content/index.rst:47
 msgid "Usage"
-msgstr ""
+msgstr "使い方"
 
 #: ../../content/index.rst:50
 msgid "Administrator Interface"
-msgstr ""
+msgstr "管理者インタフェース"
 
 #: ../../content/index.rst:52
 msgid ""
 "After installation of the package a new module will be available in the "
 "administrator interface *General Catalog*."
 msgstr ""
+"パッケージをインストールすると、管理者インタフェースに新しいモジュール "
+"*General Catalog* が追加されます。"
 
 #: ../../content/index.rst:54
 msgid ""
@@ -80,122 +82,128 @@ msgid ""
 "The general catalog management screen is available in the General Catalog"
 " module of the Administration group."
 msgstr ""
+"この画面では、カタログのクラスと項目をシステムに追加します。このパッケージの"
+"みをインストールし、OTOBO::ITSM パッケージをインストールしていない場合、一般"
+"カタログには何も登録されていません。カタログにクラスと項目を追加するには、他"
+"の OTOBO::ITSM パッケージ（例: ITSM Core）をインストールしてください。一般"
+"カタログの管理画面は、管理グループの General Catalog モジュールから利用できま"
+"す。"
 
 #: ../../content/index.rst:57
 msgid "Agent Interface"
-msgstr ""
+msgstr "担当者インタフェース"
 
 #: ../../content/index.rst:59
 msgid "This package has no agent interface."
-msgstr ""
+msgstr "このパッケージには担当者インタフェースはありません。"
 
 #: ../../content/index.rst:62
 msgid "Customer Interface"
-msgstr ""
+msgstr "顧客インタフェース"
 
 #: ../../content/index.rst:64
 msgid "This package has no customer interface."
-msgstr ""
+msgstr "このパッケージには顧客インタフェースはありません。"
 
 #: ../../content/index.rst:67
 msgid "Setup"
-msgstr ""
+msgstr "セットアップ"
 
 #: ../../content/index.rst:70
 msgid "Configuration Reference"
-msgstr ""
+msgstr "設定リファレンス"
 
 #: ../../content/index.rst:73
 msgid "Core::DynamicFields::DriverRegistration"
-msgstr ""
+msgstr "Core::DynamicFields::DriverRegistration"
 
 #: ../../content/index.rst:76
 msgid "DynamicFields::Driver###GeneralCatalog"
-msgstr ""
+msgstr "DynamicFields::Driver###GeneralCatalog"
 
 #: ../../content/index.rst:77
 msgid "DynamicField backend registration."
-msgstr ""
+msgstr "ダイナミックフィールドのバックエンドの登録。"
 
 #: ../../content/index.rst:80
 msgid "Core::GeneralCatalog"
-msgstr ""
+msgstr "Core::GeneralCatalog"
 
 #: ../../content/index.rst:83
 msgid "GeneralCatalogPreferences###Permissions"
-msgstr ""
+msgstr "GeneralCatalogPreferences###Permissions"
 
 #: ../../content/index.rst:84
 msgid ""
 "Parameters for the example permission groups of the general catalog "
 "attributes."
-msgstr ""
+msgstr "一般カタログ属性の権限グループ例のパラメータ。"
 
 #: ../../content/index.rst:87
 msgid "GeneralCatalogPreferences###Comment2"
-msgstr ""
+msgstr "GeneralCatalogPreferences###Comment2"
 
 #: ../../content/index.rst:88
 msgid "Parameters for the example comment 2 of the general catalog attributes."
-msgstr ""
+msgstr "一般カタログ属性のコメント2の例のパラメータ。"
 
 #: ../../content/index.rst:91
 msgid "Frontend::Admin::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration"
 
 #: ../../content/index.rst:94
 msgid "Frontend::Module###AdminGeneralCatalog"
-msgstr ""
+msgstr "Frontend::Module###AdminGeneralCatalog"
 
 #: ../../content/index.rst:95
 msgid ""
 "Frontend module registration for the AdminGeneralCatalog configuration in"
 " the admin area."
-msgstr ""
+msgstr "管理画面の AdminGeneralCatalog 設定用のフロントエンドモジュールの登録。"
 
 #: ../../content/index.rst:98
 msgid "Frontend::Module###AdminDynamicFieldGeneralCatalog"
-msgstr ""
+msgstr "Frontend::Module###AdminDynamicFieldGeneralCatalog"
 
 #: ../../content/index.rst:99
 msgid "Frontend module registration for the agent interface."
-msgstr ""
+msgstr "担当者インタフェース用のフロントエンドモジュールの登録。"
 
 #: ../../content/index.rst:102
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::AdminOverview"
 
 #: ../../content/index.rst:105
 msgid "Frontend::NavigationModule###AdminGeneralCatalog"
-msgstr ""
+msgstr "Frontend::NavigationModule###AdminGeneralCatalog"
 
 #: ../../content/index.rst:106
 msgid "Admin area navigation for the agent interface."
-msgstr ""
+msgstr "担当者インタフェースの管理画面のナビゲーション。"
 
 #: ../../content/index.rst:109
 msgid "Frontend::Admin::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::Loader"
 
 #: ../../content/index.rst:112
 msgid "Loader::Module::AdminGeneralCatalog###001-GeneralCatalog"
-msgstr ""
+msgstr "Loader::Module::AdminGeneralCatalog###001-GeneralCatalog"
 
 #: ../../content/index.rst:113 ../../content/index.rst:117
 msgid "Loader module registration for the agent interface."
-msgstr ""
+msgstr "担当者インタフェース用のローダーモジュールの登録。"
 
 #: ../../content/index.rst:116
 msgid "Loader::Module::AdminDynamicFieldGeneralCatalog###002-Ticket"
-msgstr ""
+msgstr "Loader::Module::AdminDynamicFieldGeneralCatalog###002-Ticket"
 
 #: ../../content/index.rst:120
 msgid "Frontend::Admin::ModuleRegistration::MainMenu"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::MainMenu"
 
 #: ../../content/index.rst:123
 msgid "Frontend::Navigation###AdminGeneralCatalog###001-GeneralCatalog"
-msgstr ""
+msgstr "Frontend::Navigation###AdminGeneralCatalog###001-GeneralCatalog"
 
 #: ../../content/index.rst:124
 msgid "Main menu item registration."
@@ -203,57 +211,59 @@ msgstr "メインメニュー項目の登録。"
 
 #: ../../content/index.rst:127
 msgid "Frontend::Base"
-msgstr ""
+msgstr "Frontend::Base"
 
 #: ../../content/index.rst:130
 msgid "GeneralCatalog::Frontend::JSColorPickerPath"
-msgstr ""
+msgstr "GeneralCatalog::Frontend::JSColorPickerPath"
 
 #: ../../content/index.rst:131
 msgid "Defines the URL JS Color Picker path."
-msgstr ""
+msgstr "JS カラーピッカーの URL パスを定義します。"
 
 #: ../../content/index.rst:134
 msgid "Frontend::Base::Loader"
-msgstr ""
+msgstr "Frontend::Base::Loader"
 
 #: ../../content/index.rst:137
 msgid "Loader::Agent::CommonJS###100-GeneralCatalog"
-msgstr ""
+msgstr "Loader::Agent::CommonJS###100-GeneralCatalog"
 
 #: ../../content/index.rst:138
 msgid "List of JS files to always be loaded for the agent interface."
-msgstr ""
+msgstr "担当者インタフェースで常に読み込む JS ファイルの一覧。"
 
 #: ../../content/index.rst:141
 msgid "About"
-msgstr ""
+msgstr "概要"
 
 #: ../../content/index.rst:144
 msgid "Contact"
-msgstr ""
+msgstr "連絡先"
 
 #: ../../content/index.rst:145
 msgid "Rother OSS GmbH"
-msgstr ""
+msgstr "Rother OSS GmbH"
 
 #: ../../content/index.rst:146
 msgid "Email: hello@otobo.io"
-msgstr ""
+msgstr "メール: hello@otobo.io"
 
 #: ../../content/index.rst:147
 msgid "Web: https://otobo.io"
-msgstr ""
+msgstr "Web: https://otobo.io"
 
 #: ../../content/index.rst:150
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: ../../content/index.rst:151
 msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp|"
 msgstr ""
+"作成者: |doc-vendor| / バージョン: |doc-version| / リリース日: |doc-"
+"datestamp|"
 
 #~ msgid "Sacrifice to Sphinx"
 #~ msgstr ""

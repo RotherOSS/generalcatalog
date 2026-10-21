@@ -24,11 +24,11 @@ sub Data {
     my $Self = shift;
 
     # Template: AAAGeneralCatalog
-    $Self->{Translation}->{'Functionality'} = '機能性';
+    $Self->{Translation}->{'Functionality'} = '機能';
 
     # Template: AdminDynamicFieldGeneralCatalog
-    $Self->{Translation}->{'Filter items by class.'} = '';
-    $Self->{Translation}->{'Set the general catalog class.'} = '';
+    $Self->{Translation}->{'Filter items by class.'} = 'クラスで項目を絞り込み。';
+    $Self->{Translation}->{'Set the general catalog class.'} = '一般カタログのクラスを設定します。';
 
     # Template: AdminGeneralCatalog
     $Self->{Translation}->{'General Catalog Management'} = 'ジェネラル・カタログ管理';
@@ -36,7 +36,7 @@ sub Data {
     $Self->{Translation}->{'Edit Item'} = 'アイテムを修正';
     $Self->{Translation}->{'Add Class'} = 'クラスの追加';
     $Self->{Translation}->{'Add Item'} = 'アイテムを追加';
-    $Self->{Translation}->{'Include invalid items'} = '';
+    $Self->{Translation}->{'Include invalid items'} = '無効な項目を含める';
     $Self->{Translation}->{'Add Catalog Item'} = 'カタログ項目を追加';
     $Self->{Translation}->{'Add Catalog Class'} = 'カタログクラスを追加';
     $Self->{Translation}->{'Catalog Class'} = 'クラスのカタログ';
@@ -49,16 +49,16 @@ sub Data {
     $Self->{Translation}->{'Comment 2'} = 'コメント2';
     $Self->{Translation}->{'Create and manage the General Catalog.'} = 'ジャネラル・カタログの作成と管理します。';
     $Self->{Translation}->{'Define the general catalog comment 2.'} = 'ジェネラル・カタログのコメント 2を定義します。';
-    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'URL JS カラーピッカーのパスを定義します。';
-    $Self->{Translation}->{'Dynamic Fields GeneralCatalog Backend GUI'} = '';
+    $Self->{Translation}->{'Defines the URL JS Color Picker path.'} = 'JS カラーピッカーの URL パスを定義します。';
+    $Self->{Translation}->{'Dynamic Fields GeneralCatalog Backend GUI'} = 'ダイナミックフィールド・一般カタログ・バックエンド GUI';
     $Self->{Translation}->{'Frontend module registration for the AdminGeneralCatalog configuration in the admin area.'} =
-        '管理エリアでのAdminGeneralCatalogのフロントエンドモジュールの登録します。';
-    $Self->{Translation}->{'General Catalog'} = 'ジェネラル・カタログ';
-    $Self->{Translation}->{'GeneralCatalog'} = '';
+        '管理画面の AdminGeneralCatalog 設定用のフロントエンドモジュールの登録。';
+    $Self->{Translation}->{'General Catalog'} = '一般カタログ';
+    $Self->{Translation}->{'GeneralCatalog'} = '一般カタログ';
     $Self->{Translation}->{'Parameters for the example comment 2 of the general catalog attributes.'} =
-        'ジェネラル・カタログ属性のコメント例 2の設定値';
+        '一般カタログ属性のコメント2の例のパラメータ。';
     $Self->{Translation}->{'Parameters for the example permission groups of the general catalog attributes.'} =
-        'ジェネラル・カタログの属性の権限グループの設定値例です。';
+        '一般カタログ属性の権限グループ例のパラメータ。';
     $Self->{Translation}->{'Permission Group'} = '権限グループ';
 
 

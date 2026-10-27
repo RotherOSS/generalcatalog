@@ -63,8 +63,9 @@
             <input type="hidden" name="Subaction" value="[% Data.Mode | html %]Action">
             <input type="hidden" name="ObjectType" value="[% Data.ObjectType | html %]">
             <input type="hidden" name="FieldType" value="[% Data.FieldType | html %]">
-            <input type="hidden" name="ObjectTypeFilter" value="[% Data.ObjectTypeFilter | html %]" />
-            <input type="hidden" name="NamespaceFilter" value="[% Data.NamespaceFilter | html %]" />
+            <input type="hidden" name="ObjectTypeFilter" value="[% Data.ObjectTypeFilter | html %]">
+            <input type="hidden" name="FieldTypeFilter" value="[% Data.FieldTypeFilter | html %]">
+            <input type="hidden" name="NamespaceFilter" value="[% Data.NamespaceFilter | html %]">
             <input type="hidden" name="ID" value="[% Data.ID | html %]">
             <input type="hidden" name="ContinueAfterSave" id="ContinueAfterSave" value=""/>
 
@@ -169,22 +170,22 @@
 [% RenderBlockEnd("InternalField") %]
                             </fieldset>
 [% RenderBlockStart("DynamicFieldInSysConfig") %]
-                    <input type="hidden" name="OldName" id="OldName" value="[% Data.OldName | html %]"/>
-                    <input type="hidden" name="UpdateEntity" id="UpdateEntity" value=""/>
-                    <div id="EntityInSetting" class="Hidden">
-                        <div class="TextDialog">
-                            <h1>[% Translate("This dynamic field is used in the following config settings:") | html %]</h1>
-                            <ul>
-                                [% RenderBlockStart("DynamicFieldInSysConfigRow") %]
-                                <li class="InSysConfigSetting">[% Data.SettingName %]</li>
-                                [% RenderBlockEnd("DynamicFieldInSysConfigRow") %]
-                            </ul>
-                            <p class="FieldExplanation"></p>
-                        </div>
-                    </div>
+                            <input type="hidden" name="OldName" id="OldName" value="[% Data.OldName | html %]"/>
+                            <input type="hidden" name="UpdateEntity" id="UpdateEntity" value=""/>
+                            <div id="EntityInSetting" class="Hidden">
+                                <div class="TextDialog">
+                                    <h1>[% Translate("This dynamic field is used in the following config settings:") | html %]</h1>
+                                    <ul>
+[% RenderBlockStart("DynamicFieldInSysConfigRow") %]
+                                        <li class="InSysConfigSetting">[% Data.SettingName %]</li>
+[% RenderBlockEnd("DynamicFieldInSysConfigRow") %]
+                                    </ul>
+                                    <p class="FieldExplanation"></p>
+                                </div>
+                            </div>
 [% RenderBlockEnd("DynamicFieldInSysConfig") %]
 [% RenderBlockStart("DynamicFieldInSysConfigDirty") %]
-                    <input type="hidden" name="SysConfigDirty" id="SysConfigDirty" value="1"/>
+                            <input type="hidden" name="SysConfigDirty" id="SysConfigDirty" value="1"/>
 [% RenderBlockEnd("DynamicFieldInSysConfigDirty") %]
                         </div>
                     </div>
@@ -230,6 +231,8 @@
                         <label for="[% Data.ConfigParamName | html %]">[% Translate(Data.Label) | html %]</label>
                         <div class="Field">
                             [% Data.FieldStrg %]
+                            <div id="[% Data.ConfigParamName | html %]Error" class="TooltipErrorMessage"><p>[% Translate("This field is required, and the value should be alphabetic and numeric characters only.") | html %]</p></div>
+                            <div id="[% Data.ConfigParamName | html %]ServerError" class="TooltipErrorMessage"><p>[% Translate(Data.ServerErrorMessage) | html %]</p></div>
                             <p class="FieldExplanation">[% Translate(Data.Explanation) | html %]</p>
                         </div>
                         <div class="Clear"></div>

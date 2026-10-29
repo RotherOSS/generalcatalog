@@ -38,12 +38,12 @@ ITSM.GeneralCatalog = ITSM.GeneralCatalog || {};
     TargetNS.Init = function() {
 
         /*global jscolor: true */
-        jscolor.dir = Core.Config.Get('GeneralCatalog::Frontend::JSColorPickerPath');
+        jscolor.dir = Core.Config.Get('GeneralCatalog::Frontend::JSColorPickerPath');   // eslint-disable-line no-undef
         jscolor.bindClass = 'JSColorPicker';
         jscolor.install();
     };
 
-    Core.Init.RegisterNamespace(TargetNS, 'CONFIG_LOADED');
+    Core.Init.RegisterNamespace(TargetNS, 'CONFIG_LOADED');   // eslint-disable-line no-undef
 
     return TargetNS;
 }(ITSM.GeneralCatalog.JSColorPicker || {}));

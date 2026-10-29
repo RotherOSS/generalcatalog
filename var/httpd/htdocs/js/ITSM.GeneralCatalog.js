@@ -2,7 +2,7 @@
 // OTOBO is a web-based ticketing system for service organisations.
 // --
 // Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-// Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.io/
+// Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 // --
 // This program is free software: you can redistribute it and/or modify it under
 // the terms of the GNU General Public License as published by the Free Software
@@ -37,12 +37,12 @@ var ITSM = ITSM || {};
 
         // init checkbox to include invalid elements
         $('input#IncludeInvalid').off('change').on('change', function () {
-            var URL = Core.Config.Get("Baselink") + 'Action=' + Core.Config.Get("Action") + ';Subaction=ItemList;Class=' + $('[name="Class"]').val() + ';IncludeInvalid=' + ( $(this).is(':checked') ? 1 : 0 );
+            var URL = Core.Config.Get("Baselink") + 'Action=' + Core.Config.Get("Action") + ';Subaction=ItemList;Class=' + $('[name="Class"]').val() + ';IncludeInvalid=' + ( $(this).is(':checked') ? 1 : 0 );   // eslint-disable-line no-undef
             window.location.href = URL;
         });
 
-        if (typeof Core.Config.Get('WarningIncidentState') !== 'undefined'
-            && parseInt(Core.Config.Get('WarningIncidentState'), 10) === 1
+        if (typeof Core.Config.Get('WarningIncidentState') !== 'undefined'   // eslint-disable-line no-undef
+            && parseInt(Core.Config.Get('WarningIncidentState'), 10) === 1   // eslint-disable-line no-undef
         ) {
             $('#Submit').click(function(Event){
                 var Functionality = $('#Functionality').val(),
@@ -51,19 +51,19 @@ var ITSM = ITSM || {};
                 Event.preventDefault();
 
                 if (Functionality === 'warning' && ValidID != '1') {
-                    Core.UI.Dialog.ShowDialog({
+                    Core.UI.Dialog.ShowDialog({   // eslint-disable-line no-undef
                         Modal: true,
-                        Title: Core.Language.Translate('Warning'),
-                        HTML: '<p>' + Core.Language.Translate('Warning incident state can not be set to invalid.') + '</p>',
+                        Title: Core.Language.Translate('Warning'),   // eslint-disable-line no-undef
+                        HTML: '<p>' + Core.Language.Translate('Warning incident state can not be set to invalid.') + '</p>',   // eslint-disable-line no-undef
                         PositionTop: '15%',
                         PositionLeft: 'Center',
                         CloseOnEscape: false,
                         CloseOnClickOutside: false,
                         Buttons: [
                             {
-                                Label: Core.Language.Translate('Cancel'),
+                                Label: Core.Language.Translate('Cancel'),   // eslint-disable-line no-undef
                                 Function: function () {
-                                    Core.UI.Dialog.CloseDialog($('.Dialog:visible'));
+                                    Core.UI.Dialog.CloseDialog($('.Dialog:visible'));   // eslint-disable-line no-undef
                                 }
                             },
                         ]
@@ -77,7 +77,7 @@ var ITSM = ITSM || {};
         }
     };
 
-    Core.Init.RegisterNamespace(TargetNS, 'APP_MODULE');
+    Core.Init.RegisterNamespace(TargetNS, 'APP_MODULE');   // eslint-disable-line no-undef
 
     return TargetNS;
 }(ITSM.GeneralCatalog || {}));

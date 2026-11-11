@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-07 14:10+0000\n"
-"PO-Revision-Date: 2026-11-11 09:00+0000\n"
+"PO-Revision-Date: 2026-11-11 11:00+0000\n"
 "Last-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
 "manuals/generalcatalog-documentation/de/>\n"
@@ -113,7 +113,7 @@ msgstr "Konfigurations-Referenz"
 
 #: ../content/index.rst:58
 msgid "Core::DynamicFields::DriverRegistration"
-msgstr ""
+msgstr "Core::DynamicFields::DriverRegistration"
 
 #: ../content/index.rst:61
 msgid "DynamicFields::Driver###GeneralCatalog"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: ../content/index.rst:62
 msgid "DynamicField backend registration."
-msgstr ""
+msgstr "Backend-Registrierung der dynamischen Felder."
 
 #: ../content/index.rst:65
 msgid "Core::GeneralCatalog"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../content/index.rst:76
 msgid "Frontend::Admin::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration"
 
 #: ../content/index.rst:79
 msgid "Frontend::Module###AdminGeneralCatalog"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../content/index.rst:84
 msgid "Frontend module registration for the agent interface."
-msgstr ""
+msgstr "Registrierung des Frontend-Moduls für die Agentenoberfläche."
 
 #: ../content/index.rst:87
 msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: ../content/index.rst:94
 msgid "Frontend::Admin::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Admin::ModuleRegistration::Loader"
 
 #: ../content/index.rst:97
 msgid "Loader::Module::AdminGeneralCatalog###001-GeneralCatalog"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../content/index.rst:98 ../content/index.rst:102
 msgid "Loader module registration for the agent interface."
-msgstr ""
+msgstr "Registrierung des Loader-Moduls für die Agentenoberfläche."
 
 #: ../content/index.rst:101
 msgid "Loader::Module::AdminDynamicFieldGeneralCatalog###002-Ticket"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: ../content/index.rst:119
 msgid "Frontend::Base::Loader"
-msgstr ""
+msgstr "Frontend::Base::Loader"
 
 #: ../content/index.rst:122
 msgid "Loader::Agent::CommonJS###100-GeneralCatalog"
@@ -230,6 +230,8 @@ msgstr ""
 #: ../content/index.rst:123
 msgid "List of JS files to always be loaded for the agent interface."
 msgstr ""
+"Liste der JS-Dateien, die für die Agentenoberfläche immer geladen werden "
+"sollen."
 
 #: ../content/index.rst:126
 msgid "About"

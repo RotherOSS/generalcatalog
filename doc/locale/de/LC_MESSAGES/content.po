@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-07 14:10+0000\n"
-"PO-Revision-Date: 2026-11-03 14:41+0000\n"
-"Last-Translator: Stefan Abel <sta@rother-oss.com>\n"
+"PO-Revision-Date: 2026-11-11 09:00+0000\n"
+"Last-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
 "manuals/generalcatalog-documentation/de/>\n"
 "Language: de\n"
@@ -65,7 +65,7 @@ msgstr "Drittanbieter-Software"
 
 #: ../content/index.rst:32
 msgid "Usage"
-msgstr "Verwendung"
+msgstr "Benutzung"
 
 #: ../content/index.rst:35
 msgid "Administrator Interface"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../content/index.rst:52
 msgid "Setup"
-msgstr "Einrichtung"
+msgstr "Setup"
 
 #: ../content/index.rst:55
 msgid "Configuration Reference"
